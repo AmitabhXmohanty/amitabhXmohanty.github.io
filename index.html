@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add FormSpree Domain Verification -->
+    <meta name="formspree-verify" content="your-verification-code">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">Portfolio</div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="animated-background">
+            <!-- Reduced number of stars -->
+            <div class="star" style="top: 5%; left: 15%;"></div>
+            <div class="star" style="top: 25%; left: 45%;"></div>
+            <div class="star" style="top: 45%; left: 75%;"></div>
+            <div class="star" style="top: 65%; left: 25%;"></div>
+            <div class="star" style="top: 85%; left: 55%;"></div>
+            <div class="star" style="top: 15%; left: 85%;"></div>
+            <div class="star" style="top: 35%; left: 5%;"></div>
+            <div class="star" style="top: 55%; left: 35%;"></div>
+            <div class="star" style="top: 75%; left: 65%;"></div>
+            <div class="star" style="top: 95%; left: 95%;"></div>
+            
+            <!-- Reduced number of floating particles -->
+            <div class="floating-particle particle-1"></div>
+            <div class="floating-particle particle-2"></div>
+            
+            <!-- Reduced number of tech symbols -->
+            <i class="tech-symbol fab fa-java" style="top: 15%; left: 10%;"></i>
+            <i class="tech-symbol fas fa-leaf" style="top: 25%; right: 15%;"></i>
+            <i class="tech-symbol fas fa-network-wired" style="bottom: 20%; left: 20%;"></i>
+            <i class="tech-symbol fas fa-database" style="bottom: 30%; right: 10%;"></i>
+            <i class="tech-symbol fab fa-aws" style="top: 60%; left: 15%;"></i>
+            <i class="tech-symbol fab fa-docker" style="bottom: 40%; left: 30%;"></i>
+            <i class="tech-symbol fab fa-git-alt" style="top: 80%; right: 20%;"></i>
+            <i class="tech-symbol fas fa-code" style="top: 40%; right: 40%;"></i>
+        </div>
+
+        <!-- Remove Matrix Rain Effect -->
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Amitabh Mohanty</span></h1>
+                <p class="hero-subtitle">Backend Developer specializing in Spring Boot & Microservices</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with reduced particles -->
+    <section id="projects" class="projects">
+        <!-- Add stars -->
+        <div class="star-background">
+            <div class="star" style="top: 10%; left: 20%;"></div>
+            <div class="star" style="top: 30%; left: 50%;"></div>
+            <div class="star" style="top: 50%; left: 80%;"></div>
+            <div class="star" style="top: 70%; left: 30%;"></div>
+            <div class="star" style="top: 90%; left: 60%;"></div>
+            <div class="star" style="top: 20%; left: 90%;"></div>
+            <div class="star" style="top: 40%; left: 10%;"></div>
+            <div class="star" style="top: 60%; left: 40%;"></div>
+        </div>
+        <div class="floating-particle-projects particle-projects-1"></div>
+        <div class="floating-particle-projects particle-projects-2"></div>
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-item">
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3 class="project-title">NatWest Group</h3>
+                        <p class="project-role">Software Development Analyst</p>
+                        <p class="project-duration">March 2023 - Present</p>
+                    </div>
+                    <ul class="project-achievements">
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Architected and developed scalable microservices using Spring Boot, focusing on high availability and fault tolerance</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Implemented robust security measures using JWT and OAuth2, ensuring secure data transmission and user authentication</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Achieved 95% test coverage with JUnit and Mockito, significantly reducing production issues</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Managed deployments via Pivotal Cloud Foundry (PCF), streamlining the deployment process</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Enhanced system observability using Spring Boot Actuator, improving monitoring capabilities</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3 class="project-title">Exor Stellantis</h3>
+                        <p class="project-role">Associate Software Developer</p>
+                        <p class="project-duration">March 2021 - March 2023</p>
+                    </div>
+                    <ul class="project-achievements">
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Led a team of 6 members for production monitoring, implementing proactive issue detection</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Developed PDF invoice generation system improving efficiency by 30% through automated processing</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Maintained 98% test coverage using JUnit and SonarQube, ensuring code quality standards</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Optimized legacy code using functional programming, reducing complexity and improving maintainability</span>
+                        </li>
+                        <li class="achievement-text">
+                            <span class="highlight-wrapper">Developed and maintained Spring Batch applications for efficient data processing</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Building Scalable, Secure, and High-Performance Backend Systems</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A passionate backend developer with expertise in Java and Spring Boot, always eager to explore emerging technologies and optimize performance driven applications.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">4+</div>
+                            <div class="stat-label">Years Backend Development Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">90%</div>
+                            <div class="stat-label">API Uptime in Production</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">50%</div>
+                            <div class="stat-label">Faster Response Time</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">40%</div>
+                            <div class="stat-label">Reduced Latency</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">100%</div>
+                            <div class="stat-label">Security Compliance</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">10+</div>
+                            <div class="stat-label">Enterprise Microservices Deployed</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-animation-container">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="code-content">
+                            <pre class="code-block">
+<span class="annotation">@SpringBootApplication</span>
+<span class="keyword">public class</span> <span class="class">BackendSystem</span> {
+    
+    <span class="annotation">@Autowired</span>
+    <span class="keyword">private</span> SecurityConfig security;
+    
+    <span class="annotation">@Bean</span>
+    <span class="keyword">public</span> LoadBalancer loadBalancer() {
+        <span class="keyword">return new</span> DynamicLoadBalancer();
+    }
+    
+    <span class="annotation">@Bean</span>
+    <span class="keyword">public</span> CacheManager cacheManager() {
+        <span class="keyword">return new</span> DistributedCache();
+    }
+    
+    <span class="keyword">public static</span> <span class="keyword">void</span> main(String[] args) {
+        SpringApplication.run(
+            BackendSystem.<span class="keyword">class</span>, args
+        );
+    }
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <!-- Add stars -->
+        <div class="skills-star-background">
+            <div class="star" style="top: 15%; left: 10%;"></div>
+            <div class="star" style="top: 35%; left: 25%;"></div>
+            <div class="star" style="top: 65%; left: 15%;"></div>
+            <div class="star" style="top: 85%; left: 30%;"></div>
+            <div class="star" style="top: 25%; left: 85%;"></div>
+            <div class="star" style="top: 45%; left: 75%;"></div>
+            <div class="star" style="top: 75%; left: 80%;"></div>
+            <div class="star" style="top: 55%; left: 45%;"></div>
+            <div class="star" style="top: 20%; left: 60%;"></div>
+            <div class="star" style="top: 90%; left: 55%;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Strong foundation in backend development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Spring Boot</h3>
+                    <p>Building scalable microservices</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Microservices</h3>
+                    <p>Designing distributed systems</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-stream"></i>
+                    <h3>Kafka</h3>
+                    <p>Event-driven architecture & messaging</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>AWS</h3>
+                    <p>Cloud computing & deployment</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>PostgreSQL</h3>
+                    <p>Reliable relational database management</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git & GitLab</h3>
+                    <p>Version control and CI/CD workflows</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-docker"></i>
+                    <h3>Docker & K8s</h3>
+                    <p>Containerization & orchestration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <!-- Add stars -->
+        <div class="services-star-background">
+            <div class="star" style="top: 15%; left: 20%;"></div>
+            <div class="star" style="top: 35%; left: 45%;"></div>
+            <div class="star" style="top: 55%; left: 75%;"></div>
+            <div class="star" style="top: 75%; left: 25%;"></div>
+            <div class="star" style="top: 25%; left: 85%;"></div>
+            <div class="star" style="top: 45%; left: 15%;"></div>
+            <div class="star" style="top: 65%; left: 65%;"></div>
+            <div class="star" style="top: 85%; left: 35%;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Specialized Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Building robust, scalable, and secure backend solutions with modern architecture patterns and best practices.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>API Development</h3>
+                    <p>Crafting secure REST APIs with OAuth2 and JWT authentication, ensuring reliable data exchange and integration.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Microservices Architecture</h3>
+                    <p>Designing and optimizing distributed systems using microservices architecture for scalability and maintainability.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud Solutions</h3>
+                    <p>Implementing cloud-native applications using AWS, Docker, and Kubernetes for reliable and scalable deployments.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Database Engineering</h3>
+                    <p>Optimizing database performance and architecture across PostgreSQL, MySQL, and IBM Db2 platforms.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Code Enhancement</h3>
+                    <p>Systematic bug fixing and code refactoring to improve system efficiency, maintainability, and performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <!-- Add stars -->
+        <div class="contact-star-background">
+            <div class="star" style="top: 15%; left: 20%;"></div>
+            <div class="star" style="top: 35%; left: 45%;"></div>
+            <div class="star" style="top: 55%; left: 75%;"></div>
+            <div class="star" style="top: 75%; left: 25%;"></div>
+            <div class="star" style="top: 25%; left: 85%;"></div>
+            <div class="star" style="top: 45%; left: 15%;"></div>
+            <div class="star" style="top: 65%; left: 65%;"></div>
+            <div class="star" style="top: 85%; left: 35%;"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:amitabh.mohanty.6@gmail.com" style="color: inherit; text-decoration: none;">amitabh.mohanty.6@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p><a href="tel:+917735169957" style="color: inherit; text-decoration: none;">+91 7735169957</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Bhubaneswar, Odisha, 754001</p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mzzezgpe" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <!-- Anti-spam honeypot field -->
+                    <input type="text" name="_gotcha" style="display: none;">
+                    <!-- Redirect after submission -->
+                    <input type="hidden" name="_next" value="thanks.html">
+                    <div id="form-status"></div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/AmitabhXmohanty" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/amitabh-mohanty" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025 Amitabh Mohanty. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="scripts/animation.js"></script>
+</body>
+</html> 
